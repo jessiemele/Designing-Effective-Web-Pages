@@ -1,0 +1,402 @@
+@import url(http://fonts.googleapis.com/css?family=Andika);
+@import url(http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo);
+
+
+header, footer, figure, figcaption, section, nav, article {
+	display: block;
+}
+
+body {
+	background-color: #666;
+	background-image: url(../images/bikeflattened.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #FFF;
+	font-family: "Andika",Helvetica,sans-serif;
+}
+
+h1, h2, nav a, .button {
+	font-family: "Swanky and Moo Moo",Cursive,sans-serif;
+}
+
+h1 {
+	color: #FF66CC;
+	font-size: 70px;
+	padding-top: 20px;
+	line-height: .5em;
+	letter-spacing:-1px;
+}
+
+h2 {
+	color: #663399;
+	font-size: 30px;
+	line-height: .5em;
+	letter-spacing:-1px;
+}
+
+h3 {
+	color: #FFF;
+	font-size: 35px;
+	margin-bottom: 5px;
+	font-family: "Andika",Helvetica,sans-serif;	
+	text-align: center;
+}
+
+nav {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center
+}
+
+nav a {
+	color: #66FFFF;
+	font-size: 30px;
+	text-decoration: none
+}
+
+nav a:visited {
+	color:#33FFFF;
+}
+
+nav a:hover {
+	color:#FF66CC;
+}
+
+blockquote {
+	background-color: rgb(51, 51, 51); 
+	background-color: rgba(51, 51, 51, .85);
+	border-left: none;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+	
+blockquote p, blockquote cite {
+	color:#FFF;
+	font-size: 15px;
+	font-style: normal;
+}
+
+cite {
+	padding-bottom: 15px;
+}
+
+footer {
+	padding-top: 5px;
+}
+
+footer p {
+	font-family: "Swanky and Moo Moo", Cursive;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}
+
+.container {
+	padding-top: 30px;
+}
+
+.top {
+	background-color: rgb(153, 153, 153);
+	background-color: rgba(153, 153, 153, .85);
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+	
+.logo {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+
+.facebook, .twitter, .instagram {
+	float: right;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	margin-top: -60px;
+}
+	
+.instagram {
+	padding-right: 20px;
+}
+
+.nav {
+	background-color: rgb(51, 51, 51);
+	background-color: rgba(51, 51, 51, .85);
+	padding-top: 20px;
+	margin-top: 10px;
+}
+
+.button {
+	  background: #666; 
+	  border: none;
+	  -moz-border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  border-radius: 10px;
+	  color: #33FFFF;
+	  display: inline-block;
+	  font-size: 30px;
+	  font-weight: normal;
+	  text-decoration: none;
+	  text-shadow: none;
+	  cursor: pointer;
+	  width: 60%;
+	  margin-bottom: 0px;
+	  line-height: normal;
+	  padding: 10px;
+	  font-family: "Swanky and Moo Moo", Cursive;
+}
+
+.button:hover {
+	background: #666;
+	color: #ff66cc;
+	border: none; 
+}
+
+.main {
+	background-color: rgb(51, 51, 51);
+	background-color: rgba(51, 51, 51, .85);
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.main p {
+	font-size: 17px;
+	line-height: 1.6em;
+}
+
+.main_image img {
+	max-width: 100%;
+	height: auto;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bottom {
+	background-color: rgb(51, 51, 51);
+	background-color: rgba(51, 51, 51, .85);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.map {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px; 
+}
+
+.address p {
+	float: left;
+	line-height: 1.3em;
+}
+.address a {	
+	color: #FFF;
+}
+.address a:hover {
+	color: #FF66CC;
+}
+.fa-envelope {
+	margin-left: 3px;
+}
+.mia, .selle, .pro {
+	float: right;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+
+.padme {
+	padding: 20px;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	body {
+		background-image: url(../images/bikeflattened2.jpg);
+		background-repeat: repeat;
+		background-size: contain !important;
+		background-attachment: fixed;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	body {
+		background-image: url(../images/bikeflattened2.jpg);
+		background-repeat: repeat;
+		background-size: 35% !important;
+		background-attachment: fixed;
+  	}
+	footer p {
+		color: rgb(153, 153, 153);
+	}
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	body {
+		background-image: url(../images/bikeflattened2.jpg);
+		background-repeat: repeat;
+		background-size: 105% !important;
+		background-attachment: fixed;
+  	}
+	footer p {
+		color: rgb(153, 153, 153);
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		background-image: url(../images/bikeflattened2.jpg);
+		background-repeat: repeat;
+		background-size: 105% !important;
+		background-attachment: fixed;
+	}
+	h1, h2 {
+		margin-bottom: 0px;
+	}
+	h1 {
+		line-height: .55em;
+		padding-top: 25px;
+	}
+	h2 {
+		padding: 10px 0px 0px 20px;
+		float: left;
+	}
+	nav {
+		margin-top: 20px !important;
+	}
+	footer p {
+		color: rgb(153, 153, 153);
+	}
+	.top {
+		margin-top: 10px !important;
+	}
+	.logo {
+		padding-right: 10px;
+	}
+	.facebook, .twitter, .instagram {
+		float: right;
+		padding-top: 90px;
+		padding-bottom: 20px;
+		width: 11%;
+	}
+	.instagram {
+		padding-right: 130px;
+	}
+	.button {
+		padding: 0px;
+		margin: 0px;
+	}
+	.main {
+		margin-top: 30px !important;
+	}
+	.quote {
+		margin-top: 10px !important;
+	}
+	.bottom {
+		margin-top: 10px !important;
+	}
+	.address p {
+		float: right;
+		line-height: 1.45em;
+		font-size: 14px;
+		margin-right: 30px;
+	}
+	.map {
+		float: left;
+		width: 35%;
+		height: auto;
+		padding-left: 30px;
+	}	
+	.affiliates {
+		display: none !important; 
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	body {
+		background-image: url(../images/bikeflattened2.jpg);
+		background-repeat: repeat;
+		background-size: 75% !important;
+		background-attachment: fixed;
+	}
+	h1, h2 {
+		margin-bottom: 0px;
+	}
+	h1 {
+		font-size: 57px;
+		line-height: .6em;
+	}
+	h2 {
+		text-align: center;
+		padding: 10px 20px 20px 20px;
+		line-height: .8em;
+		letter-spacing: .55px;
+		font-size: 28px;
+	}
+	footer {
+		margin-bottom: -10px !important;
+	}
+	footer p {
+		color: rgb(153, 153, 153);
+	}
+	.top {
+		margin-top: -10px !important;
+	}
+	.logo {
+		float: left;
+		width: 30% !important;
+    	padding-right: 0px;
+	}
+	.facebook, .twitter, .instagram {
+		float: right;
+		padding-top: 60px;
+		padding-bottom: 20px;
+		width: 15%;
+	}
+	.instagram {
+		padding-right: 75px;
+	}
+	.button {
+		padding: 0px;
+		margin: 0px;
+	}
+	.main {
+		margin-top: 10px !important;
+	}
+	.quote {
+		margin-top: -10px !important;
+	}
+	.bottom {
+		margin-top: -10px !important;
+	}
+	.map {
+		max-width: 125%;
+	}
+	
+	.address p {
+		float: left;
+	}
+		
+	.affiliates {
+		display: none !important;
+	}
+
+}
+		
